@@ -1,4 +1,5 @@
 import { ApiUploadResponse, type Data } from '../types'
+// import { API_HOST } from '../config'
 
 export const uploadFile = async (file:File): Promise<[Error?, Data?]> => {
     const formData = new FormData()
